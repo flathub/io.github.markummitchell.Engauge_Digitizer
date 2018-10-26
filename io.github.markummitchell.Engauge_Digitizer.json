@@ -1,7 +1,7 @@
 {
         "app-id": "io.github.markummitchell.Engauge_Digitizer",
         "runtime": "org.kde.Platform",
-        "runtime-version": "5.10",
+        "runtime-version": "5.11",
         "sdk": "org.kde.Sdk",
         "command": "engauge",
         "rename-icon": "engauge-digitizer",
@@ -80,8 +80,8 @@
                         "sources": [
                                 {
                                         "type": "archive",
-                                        "url": "https://poppler.freedesktop.org/poppler-data-0.4.8.tar.gz",
-                                        "sha256": "1096a18161f263cccdc6d8a2eb5548c41ff8fcf9a3609243f1b6296abdf72872"
+                                        "url": "https://poppler.freedesktop.org/poppler-data-0.4.9.tar.gz",
+                                        "sha256": "1f9c7e7de9ecd0db6ab287349e31bf815ca108a5a175cf906a90163bdbe32012"
                                 }
                         ]
                 },
@@ -99,8 +99,8 @@
                         "sources": [
                                 {
                                         "type": "archive",
-                                        "url": "https://poppler.freedesktop.org/poppler-0.45.0.tar.xz",
-                                        "sha256": "96dd1a6024bcdaa4530a3b49687db3d5c24ddfd072ccb37c6de0e42599728798"
+                                        "url": "https://poppler.freedesktop.org/poppler-0.70.1.tar.xz",
+                                        "sha256": "66972047d9ef8162cc8c389d7e7698291dfc9f2b3e4ea9a9f08ae604107451bd"
                                 }
                         ]
                 },
