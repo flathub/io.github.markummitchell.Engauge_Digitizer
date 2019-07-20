@@ -118,8 +118,8 @@
                         "sources": [
                                 {
                                         "type": "archive",
-                                        "url": "https://github.com/markummitchell/engauge-digitizer/archive/v11.2.tar.gz",
-                                        "sha256": "53e629dd534334229ac14ff00886a5dbd5aeefaabac38337c2c62a99b414602a"
+                                        "url": "https://github.com/markummitchell/engauge-digitizer/archive/v11.3.tar.gz",
+                                        "sha256": "255415e741156874e16ff81c94d93f111029c71676db18328f7b7d262085202b"
                                 }
                         ],
                         "build-commands": [
