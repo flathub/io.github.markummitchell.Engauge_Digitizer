@@ -12,7 +12,7 @@
                 "--socket=wayland",
                 "--socket=x11",
                 "--share=network",
-                "--filesystem=host",	    
+                "--filesystem=host",
                 "--share=ipc",
                 "--device=dri"
         ],
