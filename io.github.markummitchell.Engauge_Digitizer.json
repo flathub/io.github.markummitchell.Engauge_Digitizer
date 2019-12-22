@@ -1,7 +1,7 @@
 {
         "app-id": "io.github.markummitchell.Engauge_Digitizer",
         "runtime": "org.kde.Platform",
-        "runtime-version": "5.11",
+        "runtime-version": "5.12",
         "sdk": "org.kde.Sdk",
         "command": "engauge",
         "rename-icon": "engauge-digitizer",
