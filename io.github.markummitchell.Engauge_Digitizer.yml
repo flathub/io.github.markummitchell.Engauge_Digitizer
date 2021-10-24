@@ -1,6 +1,6 @@
 app-id: io.github.markummitchell.Engauge_Digitizer
 runtime: org.kde.Platform
-runtime-version: '5.15'
+runtime-version: '5.15-21.08'
 sdk: org.kde.Sdk
 command: engauge
 rename-icon: engauge-digitizer
@@ -9,9 +9,8 @@ rename-desktop-file: engauge-digitizer.desktop
 rename-appdata-file: engauge-digitizer.appdata.xml
 finish-args:
 - "--socket=wayland"
-- "--socket=x11"
+- "--socket=fallback-x11"
 - "--share=network"
-- "--filesystem=host"
 - "--share=ipc"
 - "--device=dri"
 cleanup:
