@@ -39,15 +39,6 @@ modules:
     commands:
       - cp -p /usr/share/automake-*/config.{sub,guess} .
       - autoreconf -vfi
-- name: fftw3
-  no-autogen: true
-  config-opts:
-  - "--enable-shared"
-  - "--enable-threads"
-  sources:
-  - type: archive
-    url: http://www.fftw.org/fftw-3.3.7.tar.gz
-    sha256: 3b609b7feba5230e8f6dd8d245ddbefac324c5a6ae4186947670d9ac2cd25573
 - shared-modules/openjpeg/openjpeg.json
 - name: poppler-data
   buildsystem: cmake-ninja
